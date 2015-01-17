@@ -1,4 +1,4 @@
-package project_3;
+package project_2;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import javax.swing.JPanel;

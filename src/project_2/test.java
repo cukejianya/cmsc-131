@@ -1,4 +1,4 @@
-package project_3;
+package project_2;
 
 import java.util.Scanner;
 
@@ -16,9 +16,10 @@ public class test {
 		int wd = 2*ht;
 		
 		boolean xRed = ((y/2-1) < x && x <= (y/2));
-		boolean yRed = 2*x+1 < y && y < 2*(x+1) 
-					|| (wd - (2*x+1) < y) && (wd - y < 2*(x+1));
-		System.out.println(xRed);
+		boolean xRed2 = (ht-(y/2)-1 <= x && x < ht-(y/2));
+		System.out.println(xRed2+" "+y/2);
+		
+		boolean redBox = ((x == 0 || x == ht - 1) && (y == 0 || x == wd - 1));
 		
 	}
 

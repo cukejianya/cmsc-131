@@ -1,4 +1,4 @@
-package project_3;
+package project_2;
 
 import java.util.Scanner;
 
@@ -21,15 +21,15 @@ public class ExampleDriver {
 		
 		/* Get input from user about what flag to draw */
 		System.out.println("Type the number corresponding to the name:  ");
-		System.out.println("1 Indonesia");
-		System.out.println("2 Lithuania");
-		System.out.println("3 Rwanda");
-		System.out.println("4 Malta");
-		System.out.println("5 Afghanistan");
-		System.out.println("6 Eritrea");
-		System.out.println("7 Macedonia");
-		System.out.println("8 The Bahamas");
-		System.out.println("9 Zimbabwe");
+		System.out.println("1 Poland");
+		System.out.println("2 Ukraine");
+		System.out.println("3 The Czech Republic");
+		System.out.println("4 Benin");
+		System.out.println("5 Rwanda");
+		System.out.println("6 Bahamas");
+		System.out.println("7 Afghanistan");
+		System.out.println("8 New Jersey");
+		System.out.println("9 Scotland");
 		System.out.print("Your choice here:");
 		int choice = scanner.nextInt();
 		System.out.print("Choose a size (4 or larger): ");
